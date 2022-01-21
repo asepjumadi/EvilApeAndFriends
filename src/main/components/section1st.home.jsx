@@ -37,17 +37,17 @@ export default function SrctionFirstHome ({props}){
                                     <td> Silver **** </td>
                                     <td> ETH on Polygon  </td>
                                     <td> 1000 </td>
-                                    <td> 0.01 ETH </td>
+                                    <td> 0.02 ETH </td>
                                 </tr>
                                 </table>
-                        <p className="content">The friends of mages had stoory of childrenhood of king 1st of peceaia kingdom ,occured the legendary monsters names Treantdiabolic ,.... </p>
+                        <p className="content">The friends of mages had a story of the childhood of king 1st of Peceaia kingdom, occurred the names of the legendary monsters Treantdiabolic,.... </p>
                     </div>
         </div>
         <div className="slidercontent">
                 <img className="imageslider" src={TwondSeriesTumbnail} />
                 <div className="floatingbackground">
                         <h2 className="title">
-                            3nd Series of Evil Ape and Friends | The Sercent make a contract 
+                            3rd Series of Evil Ape and Friends | The Sercent make a contract 
                         </h2>
                         <table>
                                 <tr>
@@ -62,10 +62,10 @@ export default function SrctionFirstHome ({props}){
                                     <td> Silver </td>
                                     <td> ETH on Polygon  </td>
                                     <td> 1000 </td>
-                                    <td> 0.01 ETH </td>
+                                    <td> 0.02 ETH </td>
                                 </tr>
                                 </table>
-                        <p className="content">The Servant Summoner by the the sercent in the highland cave,it is said that he became able to use two different magic attributes from his own element, and got two attributes from the servent that served him</p>
+                        <p className="content">The Servant Summoner by the Sercent in the highland cave, it is said that he became able to use two different magic attributes from his own element, and got two attributes from the servent that served him</p>
                     </div>
         </div>
         <div className="slidercontent">
@@ -87,10 +87,10 @@ export default function SrctionFirstHome ({props}){
                                     <td> Silver </td>
                                     <td> ETH on Polygon  </td>
                                     <td> 1000 </td>
-                                    <td> 0.01 ETH </td>
+                                    <td> 0.02 ETH </td>
                                 </tr>
                                 </table>
-                        <p className="content">The Evil Ape Kings Founder an Piceaia feudal kingdom  names Sercent Rouldy ,he had two servents names leas and lias,they are rabbat. Rabbat its race both rabbit and african bat had specification to cast wind,aeria and water magic.Both the servent has become controller a etherion fraction weapon system to another region </p>
+                        <p className="content">The Evil Ape Kings Founder a Piceaia feudal kingdom names Sercent Rouldy, he had two servants names leas and lias, they are Rabbat. Rabbat its race both rabbit and African bat had specification to cast wind, aeria, and water magic. Both the servent has become controller an Etherion fraction weapon system to another region</p>
                     </div>
         </div>
         <div className="slidercontent">
