@@ -87,6 +87,20 @@ section {
 .left-col .watch-video-cta img {
   margin-right: .5em;
 }
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: goldenrod;
+  color: white;
+}
 .slider{
   margin: 10px;
   .slidercontent .imageslider{
@@ -255,7 +269,14 @@ nav li a:hover {
   cursor: pointer;
 }
 
+
 @media only screen and (min-width: 768px) {
+  p{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 30px;
+  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -307,6 +328,34 @@ nav li a:hover {
   .navbar nav li.go-premium-cta a:hover {
     background: var(--primary-color);
     color: white;
+  }
+  .slider{
+    margin: 60px;
+    .slidercontent .imageslider{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .slidercontent .floatingbackground{
+      background: royalblue;
+      padding: .6em 1.3em;
+    
+    }
+    .slidercontent .floatingbackground h2{
+      color: whitesmoke;
+      font-size: 15px;
+    }
+    .slidercontent .floatingbackground p{
+      color: rgb(243, 214, 160);
+      font-size: 12px;
+    }
+    .slidercontent .floatingbackground table{
+      width: 100%;
+    }
+    .slidercontent .floatingbackground table, th, td {
+      border:1px solid white;
+      color: gold;
+      font-size: 12px;
+    }
   }
 }
 
@@ -393,6 +442,35 @@ nav li a:hover {
   .contact-right iframe {
     height: 100%;
   }
+  .slider{
+    margin: 10px;
+    align-content: flex-start;
+    .slidercontent .imageslider{
+      width: 50%;
+      margin-top: 10px;
+    }
+    .slidercontent .floatingbackground{
+      background: royalblue;
+      padding: .6em 1.3em;
+    
+    }
+    .slidercontent .floatingbackground h2{
+      color: whitesmoke;
+      font-size: 15px;
+    }
+    .slidercontent .floatingbackground p{
+      color: rgb(243, 214, 160);
+      font-size: 12px;
+    }
+    .slidercontent .floatingbackground table{
+      width: 100%;
+    }
+    .slidercontent .floatingbackground table, th, td {
+      border:1px solid white;
+      color: gold;
+      font-size: 12px;
+    }
+  }
 }
 
 @media only screen and (min-width: 1450px) {
@@ -413,6 +491,35 @@ nav li a:hover {
     background: url("../images/dots.svg") no-repeat;
     left: 4.5em;
     top: 2em;
+  }
+  .slider{
+    margin: 10px;
+    .slidercontent .imageslider{
+      width: 50%;
+      margin-top: 10px;
+      align-self: right;
+    }
+    .slidercontent .floatingbackground{
+      background: royalblue;
+      padding: .6em 1.3em;
+    
+    }
+    .slidercontent .floatingbackground h2{
+      color: whitesmoke;
+      font-size: 15px;
+    }
+    .slidercontent .floatingbackground p{
+      color: rgb(243, 214, 160);
+      font-size: 12px;
+    }
+    .slidercontent .floatingbackground table{
+      width: 100%;
+    }
+    .slidercontent .floatingbackground table, th, td {
+      border:1px solid white;
+      color: gold;
+      font-size: 12px;
+    }
   }
 }
 /*# sourceMappingURL=main.css.map */

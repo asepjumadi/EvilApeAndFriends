@@ -87,6 +87,22 @@ section {
   margin-right: .5em;
 }
 
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: goldenrod;
+  color: white;
+}
+
 .slider {
   margin: 10px;
 }
@@ -262,6 +278,12 @@ nav li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
@@ -313,6 +335,33 @@ nav li a:hover {
   .navbar nav li.go-premium-cta a:hover {
     background: var(--primary-color);
     color: white;
+  }
+  .slider {
+    margin: 60px;
+  }
+  .slider .slidercontent .imageslider {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .slider .slidercontent .floatingbackground {
+    background: royalblue;
+    padding: .6em 1.3em;
+  }
+  .slider .slidercontent .floatingbackground h2 {
+    color: whitesmoke;
+    font-size: 15px;
+  }
+  .slider .slidercontent .floatingbackground p {
+    color: #f3d6a0;
+    font-size: 12px;
+  }
+  .slider .slidercontent .floatingbackground table {
+    width: 100%;
+  }
+  .slider .slidercontent .floatingbackground table, .slider th, .slider td {
+    border: 1px solid white;
+    color: gold;
+    font-size: 12px;
   }
 }
 
@@ -399,6 +448,35 @@ nav li a:hover {
   .contact-right iframe {
     height: 100%;
   }
+  .slider {
+    margin: 10px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  .slider .slidercontent .imageslider {
+    width: 50%;
+    margin-top: 10px;
+  }
+  .slider .slidercontent .floatingbackground {
+    background: royalblue;
+    padding: .6em 1.3em;
+  }
+  .slider .slidercontent .floatingbackground h2 {
+    color: whitesmoke;
+    font-size: 15px;
+  }
+  .slider .slidercontent .floatingbackground p {
+    color: #f3d6a0;
+    font-size: 12px;
+  }
+  .slider .slidercontent .floatingbackground table {
+    width: 100%;
+  }
+  .slider .slidercontent .floatingbackground table, .slider th, .slider td {
+    border: 1px solid white;
+    color: gold;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 1450px) {
@@ -419,6 +497,36 @@ nav li a:hover {
     background: url("../images/dots.svg") no-repeat;
     left: 4.5em;
     top: 2em;
+  }
+  .slider {
+    margin: 10px;
+  }
+  .slider .slidercontent .imageslider {
+    width: 50%;
+    margin-top: 10px;
+    -ms-flex-item-align: right;
+        -ms-grid-row-align: right;
+        align-self: right;
+  }
+  .slider .slidercontent .floatingbackground {
+    background: royalblue;
+    padding: .6em 1.3em;
+  }
+  .slider .slidercontent .floatingbackground h2 {
+    color: whitesmoke;
+    font-size: 15px;
+  }
+  .slider .slidercontent .floatingbackground p {
+    color: #f3d6a0;
+    font-size: 12px;
+  }
+  .slider .slidercontent .floatingbackground table {
+    width: 100%;
+  }
+  .slider .slidercontent .floatingbackground table, .slider th, .slider td {
+    border: 1px solid white;
+    color: gold;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=nav.css.map */
