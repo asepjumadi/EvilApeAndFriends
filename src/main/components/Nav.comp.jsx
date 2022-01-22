@@ -28,7 +28,7 @@ export default function Navigation ({props}){
 
                 <ul className="secondary-nav">
                     <li><a href="#">Contact</a></li>
-                    <li className="go-premium-cta"><a href="https://opensea.io/collection/evil-ape-kings-and-friends">Go My NFT</a></li>
+                    <li className="go-premium-cta"><a href="https://opensea.io/umadyceager">Go My NFT</a></li>
                 </ul>
             </nav>
         </div>

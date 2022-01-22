@@ -28,6 +28,9 @@ function Home({props}){
             tableCrypto:"ETH on Polygon",
             tableSupply:"19",
             tablePrice:"0.03 ETH",
+            linkshare:"#",
+            linknft:"https://opensea.io/collection/evil-ape-kings-and-friends",
+            linkLearmore:"/evil-ape-kings-and-friends",
         
         },
         {
@@ -40,6 +43,9 @@ function Home({props}){
             tableCrypto:"ETH on Polygon",
             tableSupply:"1000",
             tablePrice:"0.02 ETH",
+            linkshare:"#",
+            linknft:"https://opensea.io/collection/2nd-chapter-eakaf",
+            linkLearmore:"/2nd-chapter-eakaf",
         
         },
         {
@@ -52,30 +58,39 @@ function Home({props}){
             tableCrypto:"ETH on Polygon",
             tableSupply:"1000",
             tablePrice:"0.02 ETH",
+            linkshare:"#",
+            linknft:"https://opensea.io/collection/3rd-chapter-eakaf",
+            linkLearmore:"/3rd-chapter-eakaf",
         
         },
         {
             altimage:"rumor c",
             ImageMain:TrheerdSeries,
-            Title:"4nd Series of Evil Ape and Friends | The Friends of Mages",
+            Title:"4th Series of Evil Ape and Friends | The Friends of Mages",
             contents:"The friends of mages had a story of the childhood of king 1st of Peceaia kingdom, occurred the names of the legendary monsters Treantdiabolic,create new devine technology to clash Treantdiabolic ",
             tableName:"The Friends of Mages",
             tableTier:"Silver",
             tableCrypto:"ETH on Polygon",
             tableSupply:"1000",
             tablePrice:"0.02 ETH",
+            linkshare:"#",
+            linknft:"https://opensea.io/collection/4th-chapter-eakaf",
+            linkLearmore:"/4th-chapter-eakaf",
         
         },
         {
             altimage:"rumor c",
-            ImageMain:BackgroundS2,
-            Title:"4nd Series of Evil Ape and Friends | Rise of Roseraws Race",
+            ImageMain:ReadisCoomingshoots,
+            Title:"5th Series of Evil Ape and Friends | Rise of Roseraws Race",
             contents:"The friends of mages had a story of the childhood of king 1st of Peceaia kingdom, occurred the names of the legendary monsters Treantdiabolic,create new devine technology to clash Treantdiabolic ",
             tableName:"comming soon",
             tableTier:"comming soon",
             tableCrypto:"ETH on Polygon",
             tableSupply:"1000",
             tablePrice:"0.02 ETH",
+            linkshare:"#",
+            linknft:"https://opensea.io/collection/evil-ape-kings-and-friends",
+            linkLearmore:"#",
         
         }
 
@@ -105,9 +120,9 @@ function Home({props}){
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small">Share</Button>
-                                    <Button size="small">Go NFT</Button>
-                                    <Button size="small">Learn More</Button>
+                                    <Button size="small" href={item.linkshare}>Share</Button>
+                                    <Button size="small" href={item.linknft}>Go NFT</Button>
+                                    <Button size="small" href={item.linkLearmore}>Learn More</Button>
                                 </CardActions>
                         </Card>
                         <div className="floatingbackground" style={{marginLeft:10}}>
@@ -120,11 +135,11 @@ function Home({props}){
                                     <th>Floor Price </th>
                                 </tr>
                                 <tr>
-                                    <td> ApeKings&Friend 1st </td>
-                                    <td> BRONZE </td>
-                                    <td> ETH on Polygon  </td>
-                                    <td> 19 </td>
-                                    <td> 0.03 ETH </td>
+                                    <td> {item.tableName} </td>
+                                    <td> {item.tableTier}</td>
+                                    <td> {item.tableCrypto}</td>
+                                    <td> {item.tableSupply}</td>
+                                    <td> {item.tablePrice}</td>
                                 </tr>
                         </table>
                         </div>
