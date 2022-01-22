@@ -44,6 +44,31 @@ export default function SrctionFirstHome ({props}){
                     </div>
         </div>
         <div className="slidercontent">
+                <img className="imageslider" src={TrheerdSeries} />
+                <div className="floatingbackground">
+                        <h2 className="title">
+                            4nd Series of Evil Ape and Friends | The Friends of Mages
+                        </h2>
+                        <table>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Tier</th>
+                                    <th>Crypto</th>
+                                    <th>Total Supply</th>
+                                    <th>Floor Price </th>
+                                </tr>
+                                <tr>
+                                    <td> Ape King Founder </td>
+                                    <td> Silver **** </td>
+                                    <td> ETH on Polygon  </td>
+                                    <td> 1000 </td>
+                                    <td> 0.02 ETH </td>
+                                </tr>
+                                </table>
+                        <p className="content">The friends of mages had a story of the childhood of king 1st of Peceaia kingdom, occurred the names of the legendary monsters Treantdiabolic,.... </p>
+                    </div>
+        </div>
+        <div className="slidercontent">
                 <img className="imageslider" src={TwondSeriesTumbnail} />
                 <div className="floatingbackground">
                         <h2 className="title">

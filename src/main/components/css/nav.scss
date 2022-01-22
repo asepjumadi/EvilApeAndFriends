@@ -54,7 +54,9 @@ section {
   padding: 5em 2em;
 }
 
-
+.blockshare{
+  align-content: center;
+}
 .left-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
@@ -269,7 +271,24 @@ nav li a:hover {
   cursor: pointer;
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.slider{
+  margin: 10px;
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+}
 @media only screen and (min-width: 768px) {
   p{
     font-size: 20px;
@@ -350,11 +369,15 @@ nav li a:hover {
     }
     .slidercontent .floatingbackground table{
       width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
     }
     .slidercontent .floatingbackground table, th, td {
       border:1px solid white;
       color: gold;
       font-size: 12px;
+      text-align: left;
+      padding: 8px;
     }
   }
 }
