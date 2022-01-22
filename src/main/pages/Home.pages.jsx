@@ -21,32 +21,62 @@ function Home({props}){
         {
             altimage:"rumor c",
             ImageMain:BackgroundPng,
-            Title:"First Series Evil Ape and Friends | intro",
-            contents:"Evil Ape Kings is stronger in Piceaia Kingdoms has 1 of 21 kingdoms of Carcea World, he is Dangerous with the enemy and soft with allies. He got the name Evil Ape Kings because when he command war to defend his land from the Dashcia Kingdom he killed a Normeder known as The Sanctuary Dash the king of Dashcia, Normeder has 100 years of undefeated."
+            Title:"1st Series Evil Ape and Friends | Intro of the story a kings",
+            contents:"Evil Ape Kings is stronger in Piceaia Kingdoms has 1 of 21 kingdoms of Carcea World, he is Dangerous with the enemy and soft with allies. He got the name Evil Ape Kings because when he command war to defend his land ",
+            tableName:"ApeKings&Friend 1st",
+            tableTier:"BRONZE",
+            tableCrypto:"ETH on Polygon",
+            tableSupply:"19",
+            tablePrice:"0.03 ETH",
+        
         },
         {
             altimage:"rumor c",
             ImageMain:Sercent,
-            Title:"First Series Evil Ape and Friends | intro",
-            contents:"Evil Ape Kings is stronger in Piceaia Kingdoms has 1 of 21 kingdoms of Carcea World, he is Dangerous with the enemy and soft with allies. He got the name Evil Ape Kings because when he command war to defend his land from the Dashcia Kingdom he killed a Normeder known as The Sanctuary Dash the king of Dashcia, Normeder has 100 years of undefeated."
+            Title:"2nd Series of Evil Ape and Friends | King Founder Piceaia",
+            contents:"The Evil Ape Kings Founder a Piceaia feudal kingdom names Sercent Rouldy, he had two servants names leas and lias, they are Rabbat. Rabbat its race both rabbit and African bat had specification to cast wind and water magic.",
+            tableName:"Ape King Founder",
+            tableTier:"Silver",
+            tableCrypto:"ETH on Polygon",
+            tableSupply:"1000",
+            tablePrice:"0.02 ETH",
+        
         },
         {
             altimage:"rumor c",
             ImageMain:TwondSeriesTumbnail,
-            Title:"First Series Evil Ape and Friends | intro",
-            contents:"Evil Ape Kings is stronger in Piceaia Kingdoms has 1 of 21 kingdoms of Carcea World, he is Dangerous with the enemy and soft with allies. He got the name Evil Ape Kings because when he command war to defend his land from the Dashcia Kingdom he killed a Normeder known as The Sanctuary Dash the king of Dashcia, Normeder has 100 years of undefeated."
+            Title:"3rd Series of Evil Ape and Friends | The Sercent make a contract",
+            contents:"The Servant Summoner by the Sercent in the highland cave, it is said that he became able to use two different magic attributes from his own element, and got two attributes from the servent that served him",
+            tableName:"The Sercent make a contract",
+            tableTier:"Silver",
+            tableCrypto:"ETH on Polygon",
+            tableSupply:"1000",
+            tablePrice:"0.02 ETH",
+        
         },
         {
             altimage:"rumor c",
             ImageMain:TrheerdSeries,
-            Title:"First Series Evil Ape and Friends | intro",
-            contents:"Evil Ape Kings is stronger in Piceaia Kingdoms has 1 of 21 kingdoms of Carcea World, he is Dangerous with the enemy and soft with allies. He got the name Evil Ape Kings because when he command war to defend his land from the Dashcia Kingdom he killed a Normeder known as The Sanctuary Dash the king of Dashcia, Normeder has 100 years of undefeated."
+            Title:"4nd Series of Evil Ape and Friends | The Friends of Mages",
+            contents:"The friends of mages had a story of the childhood of king 1st of Peceaia kingdom, occurred the names of the legendary monsters Treantdiabolic,create new devine technology to clash Treantdiabolic ",
+            tableName:"The Friends of Mages",
+            tableTier:"Silver",
+            tableCrypto:"ETH on Polygon",
+            tableSupply:"1000",
+            tablePrice:"0.02 ETH",
+        
         },
         {
             altimage:"rumor c",
             ImageMain:BackgroundS2,
-            Title:"First Series Evil Ape and Friends | intro",
-            contents:"Evil Ape Kings is stronger in Piceaia Kingdoms has 1 of 21 kingdoms of Carcea World, he is Dangerous with the enemy and soft with allies. He got the name Evil Ape Kings because when he command war to defend his land from the Dashcia Kingdom he killed a Normeder known as The Sanctuary Dash the king of Dashcia, Normeder has 100 years of undefeated."
+            Title:"4nd Series of Evil Ape and Friends | Rise of Roseraws Race",
+            contents:"The friends of mages had a story of the childhood of king 1st of Peceaia kingdom, occurred the names of the legendary monsters Treantdiabolic,create new devine technology to clash Treantdiabolic ",
+            tableName:"comming soon",
+            tableTier:"comming soon",
+            tableCrypto:"ETH on Polygon",
+            tableSupply:"1000",
+            tablePrice:"0.02 ETH",
+        
         }
 
     ]
